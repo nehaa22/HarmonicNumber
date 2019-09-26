@@ -10,6 +10,13 @@ public class HarmonicNumberTest {
     public void givenHarmonicNumberOne_whenCalculatedItsHarmonicValue_ThenShouldReturnOne()
     {
         HarmonicNumber harmonicNumber = new HarmonicNumber();
-        Assertions.assertEquals(1,harmonicNumber.calculateHarmonicValue(1));
+        Assertions.assertEquals(1, harmonicNumber.calculateHarmonicValue(1));
+    }
+
+    @Test
+    public void givenHarmonicNumberTwo_whenCalculatedItsHarmonicValue_ThenShouldReturnOne()
+    {
+        HarmonicNumber harmonicNumber = new HarmonicNumber();
+        Assertions.assertEquals(1.5, harmonicNumber.calculateHarmonicValue(2));
     }
 }
